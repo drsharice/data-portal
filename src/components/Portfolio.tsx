@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 type CardProps = { title: string; desc: string; icon: React.ReactNode; to: string; };
@@ -33,24 +32,7 @@ export default function Portfolio() {
         </header>
 
         <div className="grid gap-6 md:grid-cols-3">
-          <Card
-            to="/data"
-            title="Data"
-            desc="Dive into a collection of structured datasets, ready to fuel your insights and applications."
-            icon={<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z" stroke="currentColor" strokeWidth="2"/></svg>}
-          />
-          <Card
-            to="/analytics"
-            title="Reporting & Analytics"
-            desc="Transform data into actionable reports with our analytics tools and visualization capabilities."
-            icon={<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 19h16" stroke="currentColor" strokeWidth="2"/><path d="M7 16V8" stroke="currentColor" strokeWidth="2"/><path d="M12 16V5" stroke="currentColor" strokeWidth="2"/><path d="M17 16v-6" stroke="currentColor" strokeWidth="2"/></svg>}
-          />
-          <Card
-            to="/apis"
-            title="APIs"
-            desc="Access stable and well-documented APIs for seamless integration with your systems."
-            icon={<svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M10 14l-2 2a4 4 0 1 1-6-6l2-2M14 10l2-2a4 4 0 0 1 6 6l-2 2" stroke="currentColor" strokeWidth="2"/><path d="M8 16l8-8" stroke="currentColor" strokeWidth="2"/></svg>}
-          />
+          {/* cards ... */}
         </div>
       </div>
     </section>
