@@ -36,7 +36,7 @@ export default function Hero() {
               </button>
               <button
                 type="button"
-                className="rounded-xl px-4 py-3 font-semibold bg-brand-yellow4 text-brand-black border border-brand-gmid hover:brightness-95 transition"
+                className="rounded-xl px-4 py-3 font-semibold bg-[var(--yellow-3)] text-brand-black border border-brand-gmid hover:brightness-95 transition"
               >
                 <span className="inline-flex items-center gap-2">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
