@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import type { ReactNode } from "react";
 
 type CardProps = {
   title: string;
   desc: string;
-  icon: JSX.Element;
+  icon: ReactNode;
   to: string;
 };
 
