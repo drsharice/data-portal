@@ -20,7 +20,7 @@ export default function Hero() {
           <div className="glass-card mx-auto w-[88vw] max-w-[90rem] min-h-[60vh] px-12 md:px-16 flex flex-col items-center justify-center text-center gap-4">
             <h1 className="text-5xl md:text-7xl xl:text-8xl font-extrabold tracking-tight">DATA PORTAL</h1>
             <p className="text-base md:text-lg text-white/85">
-              Curated, production-ready datasets with clear docs and stable APIs.
+             Discover datasets, docs, APIs, and real-time chatbot support—your guide to everything data in our space.
             </p>
 
             <form onSubmit={onSubmit} className="mt-4 flex flex-wrap items-center justify-center gap-2">
