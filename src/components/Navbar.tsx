@@ -29,13 +29,14 @@ export default function Navbar() {
           {/* Brand (flush-left) */}
           <Link to="/" className={`flex items-center gap-3 ${brandColor}`}>
             <div className="h-7 w-7 rounded-md bg-brand-red" aria-hidden="true" />
-            <span className="font-semibold tracking-wide">Data Instrumentation</span>
+            <span className="font-semibold tracking-wide">Home | Data Instrumentation</span>
           </Link>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6 md:gap-8">
             <NavLink to="/data" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Data</NavLink>
             <NavLink to="/apis" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>API</NavLink>
+            <NavLink to="/analytics" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Report</NavLink>
             <NavLink to="/docs" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Docs</NavLink>
             <NavLink to="/contact" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Contact Us</NavLink>
 
