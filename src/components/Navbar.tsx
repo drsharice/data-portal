@@ -37,6 +37,7 @@ export default function Navbar() {
             <NavLink to="/data" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Data</NavLink>
             <NavLink to="/apis" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>API</NavLink>
             <NavLink to="/analytics" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Report</NavLink>
+            <NavLink to="/catalog" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Catalog</NavLink>
             <NavLink to="/docs" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Docs</NavLink>
             <NavLink to="/contact" className={({isActive}) => `${linkBase} ${isActive?active:idle}`}>Contact Us</NavLink>
 

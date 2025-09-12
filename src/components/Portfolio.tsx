@@ -84,6 +84,21 @@ export default function Portfolio() {
               </svg>
             }
           />
+           <Card
+            to="/catalog"
+            title="Catalog"
+            desc="Explore our comprehensive catalog of datasets, APIs, and analytics tools designed to meet your data needs."
+            icon={
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M10 14l-2 2a4 4 0 1 1-6-6l2-2M14 10l2-2a4 4 0 0 1 6 6l-2 2"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <path d="M8 16l8-8" stroke="currentColor" strokeWidth="2" />
+              </svg>
+            }
+          />
         </div>
       </div>
     </section>
